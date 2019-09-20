@@ -78,6 +78,8 @@ export default function(
     $header.removeEventListener('click', handleToggle)
     window.removeEventListener('resize', handleResize)
 
+    if (animated) $body.style.transition = ''
+    $body.style.overflow = ''
     $body.style.height = ''
   }
 }
