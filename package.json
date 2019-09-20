@@ -1,0 +1,24 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parallaxagency/conditioner": "0.0.6",
+    "@storybook/addon-storysource": "^5.2.1",
+    "conditioner-core": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/html": "^5.2.1",
+    "babel-loader": "^8.0.6"
+  }
+}
